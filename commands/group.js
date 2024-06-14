@@ -625,7 +625,7 @@ async(Void, citel, text) => {
     
     try {
         await Void.groupParticipantsUpdate(citel.chat, [users], "promote");
-        citel.reply("*֎╎تـمـت الـتـرقـيـة، نـرجـو عـدم الـتـقـصـيـر 🙏*");
+        citel.reply("*֎╎تـمـت الـتـرقـيـة،   براعيه بوت زياد شبرا 🙏*");
     } catch {
          citel.reply(tlang().botAdmin);
     }
@@ -652,7 +652,7 @@ async(Void, citel, text) => {
     
     try {
         await Void.groupParticipantsUpdate(citel.chat, [users], "remove");
-        citel.reply("*֎╎تـم الـطـرد، الـلـه يـوفـقـه*");
+        citel.reply("*֎╎تم الطرد  ،  *");
     } catch {
          citel.reply(tlang().botAdmin);
     }
@@ -1017,7 +1017,7 @@ cmd({
              let txt = `*❮ 📢┇إذاعــه عــام┇📢 ❯*\n\n*֎╎الـرسـالـه🀄┇* ${text}\n\n*֎╎الـمـطـور🧑‍💻┇* ${citel.pushName}` 
              await Void.sendMessage(i, { 
                  image: { 
-                     url: "https://telegra.ph/file/6aada4aec4aa251ff14b3.jpg" 
+                     url: "://.//." 
                  }, 
                  caption: `${txt}` 
              }) 
